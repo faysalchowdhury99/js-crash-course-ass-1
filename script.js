@@ -17,8 +17,8 @@ if (pocketMoney >= 5000) {
 }
 
 // Problem-3
-let cofferDam = 51;
-let isCoffeeAvailable = true;
+let cofferDam;
+let isCoffeeAvailable;
 
 if (!isCoffeeAvailable) {
   console.log("Khabo r kmne Coffee nai ee");
