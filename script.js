@@ -34,10 +34,12 @@ if (isCoffeeAvailable) {
 let takarPoriman;
 let isCloseFriend;
 let ageDharDiyePaisi;
-if (takarPoriman > 2000) {
-  console.log("Bondhu amar obostha dekhos na? Kmne Choli? Tore Kmne Dimu ko");
-} else if (isCloseFriend || ageDharDiyePaisi) {
-  console.log(" Are ne beta tor laigai to taka");
+if (takarPoriman <= 2000) {
+  if (isCloseFriend || ageDharDiyePaisi) {
+    console.log("Are ne beta tor laigai to taka");
+  } else {
+    console.log("Ek poisao nai bissas kor");
+  }
 } else {
   console.log("Taka Poisa Chais na re bondhu, Basa theke dey na");
 }
