@@ -5,6 +5,8 @@ if (vaaterDam <= 50) {
 } else {
   console.log("Porota Khabo");
 }
+// OR
+console.log(vaaterDam <= 50 ? "Vaat Khabo" : "Porota Khabo");
 
 // Problem-2
 let pocketMoney;
@@ -13,8 +15,16 @@ if (pocketMoney >= 5000) {
 } else if (pocketMoney >= 3000) {
   console.log("Cox I am coming");
 } else {
-  console.log("Chiriakhanay Jamu");
+  console.log("Chiriyakhana ache keno. oikhane jamu");
 }
+// OR
+console.log(
+  pocketMoney >= 5000
+    ? "Sajek I am coming"
+    : pocketMoney >= 3000
+    ? "Cox I am coming"
+    : "Chiriyakhana ache keno. oikhane jamu"
+);
 
 // Problem-3
 let cofferDam;
@@ -27,13 +37,14 @@ if (isCoffeeAvailable) {
     console.log("Coffeer Theke Cha ee valo, ekta cha den");
   }
 } else {
-  console.log("Vabsilam Coffee Khamu Na thakle ar ki korar, Cha ee den");
+  console.log("Vabsilam Coffee Khamu, Na thakle ar ki korar");
 }
 
 // Problem-4
 let takarPoriman;
 let isCloseFriend;
 let ageDharDiyePaisi;
+
 if (takarPoriman <= 2000) {
   if (isCloseFriend || ageDharDiyePaisi) {
     console.log("Are ne beta tor laigai to taka");
