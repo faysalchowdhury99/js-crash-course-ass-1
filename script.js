@@ -20,12 +20,14 @@ if (pocketMoney >= 5000) {
 let cofferDam;
 let isCoffeeAvailable;
 
-if (!isCoffeeAvailable) {
-  console.log("Khabo r kmne Coffee nai ee");
-} else if (cofferDam <= 50 && isCoffeeAvailable) {
-  console.log("Coffee Khabo");
+if (isCoffeeAvailable) {
+  if (cofferDam <= 50) {
+    console.log("Coffee Khabo");
+  } else {
+    console.log("Coffeer Theke Cha ee valo, ekta cha den");
+  }
 } else {
-  console.log("Coffeer Theke Cha ee valo, ekta cha den");
+  console.log("Vabsilam Coffee Khamu Na thakle ar ki korar");
 }
 
 // Problem-4
