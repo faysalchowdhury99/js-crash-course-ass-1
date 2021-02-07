@@ -27,7 +27,7 @@ if (isCoffeeAvailable) {
     console.log("Coffeer Theke Cha ee valo, ekta cha den");
   }
 } else {
-  console.log("Vabsilam Coffee Khamu Na thakle ar ki korar");
+  console.log("Vabsilam Coffee Khamu Na thakle ar ki korar, Cha ee den");
 }
 
 // Problem-4
